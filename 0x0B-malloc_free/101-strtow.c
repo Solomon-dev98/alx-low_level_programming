@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * strtow - a function that splits a string into words.
+ * count_words - the main funtion
  * @str: a parameter.
- * count_words - a function that count words.
  * Return: NULL.
  */
-
-char count_words(char *str)
+int count_words(char *str)
 {
 	int count = 0;
 	int in_word = 0;
@@ -29,6 +27,15 @@ char count_words(char *str)
 
 	return (count);
 }
+
+/**
+ * **strtow - splits a string into words
+ * @str: string to split
+ *
+ * Return: pointer to an array of strings (Success)
+ * or NULL (Error)
+ */
+
 
 char **strtow(char *str)
 {
