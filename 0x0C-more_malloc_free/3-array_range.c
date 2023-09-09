@@ -16,14 +16,14 @@ int *array_range(int min, int max)
 	int size;
 	int i;
 
+	if (min > max)
+		return (NULL);
+
 	/* calculate the size of the array */
 	size = max - min + 1;
 
 	/* allocate memory for the array */
 	arrayOfint = (int *)malloc(size * sizeof(int));
-
-	if (min > max)
-		return (NULL);
 
 	/* check if malloc failed */
 	if (arrayOfint == NULL)
