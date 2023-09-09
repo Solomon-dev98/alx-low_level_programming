@@ -30,9 +30,9 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	/* fill the array with values from min to max */
-	for (i = 0; i < size; i++)
+	for (i = 0; min <= max; i++)
 	{
-		arrayOfint[i] = min + i;
+		arrayOfint[i] = min++;
 	}
 
 	return (arrayOfint);
