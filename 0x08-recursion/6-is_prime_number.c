@@ -17,7 +17,7 @@ int prime(int c, int v)
 }
 
 /**
- * is_prime_number - a function that returns 1 if the input is a prime number otherwise returns 0.
+ * is_prime_number - a function that checks for a prime number.
  * @n: a variable.
  * Return: return 1 or 0.
  */
