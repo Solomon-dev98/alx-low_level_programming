@@ -8,7 +8,7 @@
  * Return: 0 on success or 1 for an error.
  */
 
-int main (int argc, char * argv[])
+int main(int argc, char *argv[])
 {
 	int num1, num2, mul = 0;
 
@@ -17,7 +17,7 @@ int main (int argc, char * argv[])
 		if (argc != 3)
 		{
 			printf("Error\n");
-			return 1;
+			return (1);
 		}
 		else
 		{
