@@ -1,6 +1,5 @@
-#ifndef D0G_H
+#ifndef DOG_H
 #define DOG_H
-
 /**
  * struct dog - a desription of user-defined data type dog
  * @name: First member
@@ -9,12 +8,10 @@
  *
  * Description: Longer description
  */
-
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
 #endif
